@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1686" viewBox="0 0 2500 1686">
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5EBDD"/>
+      <stop offset="1" stop-color="#DEC7A8"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#355849"/>
+      <stop offset="1" stop-color="#1F392F"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F0E3CF"/>
+    </linearGradient>
+    <linearGradient id="terra" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#CE7049"/>
+      <stop offset="1" stop-color="#A94F38"/>
+    </linearGradient>
+    <linearGradient id="mocha" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#76513E"/>
+      <stop offset="1" stop-color="#4C342B"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#4A3227" flood-opacity=".16"/>
+    </filter>
+    <style>
+      .sans { font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
+      .title { font-size: 78px; font-weight: 800; letter-spacing: 5px; }
+      .bottom-title { font-size: 58px; font-weight: 800; letter-spacing: 4px; }
+      .sub { font-size: 31px; font-weight: 500; letter-spacing: 2px; }
+      .bottom-sub { font-size: 25px; font-weight: 500; letter-spacing: 1px; }
+      .eyebrow { font-size: 22px; font-weight: 700; letter-spacing: 6px; }
+      .num { font-size: 36px; font-weight: 800; }
+      .icon { fill: none; stroke: currentColor; stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="2500" height="1686" fill="url(#canvas)"/>
+
+  <!-- 01 / nearby coffee -->
+  <g transform="translate(28 28)" filter="url(#shadow)">
+    <rect width="1194" height="787" rx="62" fill="#294D3F"/>
+    <g transform="translate(70 62)">
+      <rect width="145" height="58" rx="29" fill="#F2D493"/>
+      <text x="72" y="40" text-anchor="middle" class="sans num" fill="#233D32">01</text>
+    </g>
+    <text x="1120" y="104" text-anchor="end" class="sans eyebrow" fill="#E6C57F">DISCOVER</text>
+    <g transform="translate(104 230)" color="#F8EEDF">
+      <path class="icon" d="M32 91h304v170c0 115-61 178-152 178S32 376 32 261V91Z"/>
+      <path class="icon" d="M336 145h48c105 0 105 166 0 166h-47"/>
+      <path class="icon" d="M103 29c-31-43 36-58 0-105M205 29c-31-43 36-58 0-105"/>
+      <path d="M184 219c-45 0-65 34-65 61 0 45 65 91 65 91s65-46 65-91c0-27-20-61-65-61Zm0 84a25 25 0 1 1 0-50 25 25 0 0 1 0 50Z" fill="#E4B76B"/>
+    </g>
+    <text x="650" y="398" class="sans title" fill="#FFF9EF">找附近咖啡</text>
+    <text x="654" y="472" class="sans sub" fill="#E9D2AE">分享位置，探索附近咖啡館</text>
+    <g transform="translate(650 574)">
+      <rect width="355" height="82" rx="41" fill="#F8EEDF"/>
+      <text x="154" y="55" text-anchor="middle" class="sans" font-size="30" font-weight="700" fill="#233D32">開始探索</text>
+      <path d="M285 41h30m-12-12 12 12-12 12" fill="none" stroke="#233D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- 02 / current preferences -->
+  <g transform="translate(1278 28)" filter="url(#shadow)">
+    <rect width="1194" height="787" rx="62" fill="url(#cream)"/>
+    <g transform="translate(70 62)">
+      <rect width="145" height="58" rx="29" fill="#355849"/>
+      <text x="72" y="40" text-anchor="middle" class="sans num" fill="#FFF9EF">02</text>
+    </g>
+    <text x="1120" y="104" text-anchor="end" class="sans eyebrow" fill="#A1734D">PROFILE</text>
+    <g transform="translate(92 228)" color="#355849">
+      <rect class="icon" x="8" y="8" width="366" height="418" rx="56"/>
+      <path class="icon" d="M82 115h218M82 196h218M82 277h122"/>
+      <path d="M274 323c18-28 66-24 70 15 4 42-70 86-70 86s-74-44-70-86c4-39 52-43 70-15Z" fill="#C96743"/>
+    </g>
+    <text x="617" y="392" class="sans title" fill="#2E493D">我的偏好</text>
+    <text x="621" y="466" class="sans sub" fill="#84654D">查看目前儲存的搜尋條件</text>
+    <g transform="translate(617 539)" class="sans" font-size="27" font-weight="650" fill="#714C35">
+      <rect width="128" height="58" rx="29" fill="#E5D2B6"/><text x="64" y="39" text-anchor="middle">安靜</text>
+      <rect x="144" width="128" height="58" rx="29" fill="#E5D2B6"/><text x="208" y="39" text-anchor="middle">插座</text>
+      <rect x="288" width="174" height="58" rx="29" fill="#E5D2B6"/><text x="375" y="39" text-anchor="middle">適合工作</text>
+    </g>
+    <path d="M621 661h420m-24-18 18 18-18 18" fill="none" stroke="#355849" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 03 / set preferences -->
+  <g transform="translate(28 871)" filter="url(#shadow)">
+    <rect width="797" height="787" rx="58" fill="#C76543"/>
+    <g transform="translate(48 45)">
+      <rect width="118" height="50" rx="25" fill="#FAE8D1"/>
+      <text x="59" y="36" text-anchor="middle" class="sans num" font-size="30" fill="#98412F">03</text>
+    </g>
+    <text x="745" y="78" text-anchor="end" class="sans eyebrow" font-size="18" fill="#F7D3A9">CUSTOMIZE</text>
+    <g transform="translate(247 150)" color="#FFF5E8">
+      <path class="icon" d="M0 40h300M0 130h300M0 220h300"/>
+      <circle cx="86" cy="40" r="24" fill="#B35038" stroke="#FFF5E8" stroke-width="14"/>
+      <circle cx="218" cy="130" r="24" fill="#B35038" stroke="#FFF5E8" stroke-width="14"/>
+      <circle cx="128" cy="220" r="24" fill="#B35038" stroke="#FFF5E8" stroke-width="14"/>
+    </g>
+    <text x="399" y="500" text-anchor="middle" class="sans bottom-title" fill="#FFF8EE">設定偏好</text>
+    <text x="399" y="561" text-anchor="middle" class="sans bottom-sub" fill="#F6D9B9">調整適合你的咖啡條件</text>
+    <path d="M265 654h267m-24-18 18 18-18 18" fill="none" stroke="#FFF3E3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 04 / wishlist -->
+  <g transform="translate(853 871)" filter="url(#shadow)">
+    <rect width="794" height="787" rx="58" fill="#294D3F"/>
+    <g transform="translate(48 45)">
+      <rect width="118" height="50" rx="25" fill="#F2D493"/>
+      <text x="59" y="36" text-anchor="middle" class="sans num" font-size="30" fill="#233D32">04</text>
+    </g>
+    <text x="742" y="78" text-anchor="end" class="sans eyebrow" font-size="18" fill="#E6C57F">WISHLIST</text>
+    <g transform="translate(282 135)" color="#FFF4DF">
+      <path class="icon" d="M0 15h230v288l-115-78L0 303Z"/>
+      <path d="m115 58 24 50 55 8-40 39 10 55-49-26-49 26 10-55-40-39 55-8Z" fill="#E4B76B"/>
+    </g>
+    <text x="397" y="500" text-anchor="middle" class="sans bottom-title" fill="#FFF8EE">想去清單</text>
+    <text x="397" y="561" text-anchor="middle" class="sans bottom-sub" fill="#E9D2AE">查看收藏的咖啡館</text>
+    <path d="M263 654h267m-24-18 18 18-18 18" fill="none" stroke="#FFF3E3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 05 / guide -->
+  <g transform="translate(1675 871)" filter="url(#shadow)">
+    <rect width="797" height="787" rx="58" fill="#684838"/>
+    <g transform="translate(48 45)">
+      <rect width="118" height="50" rx="25" fill="#FAE8D1"/>
+      <text x="59" y="36" text-anchor="middle" class="sans num" font-size="30" fill="#51382E">05</text>
+    </g>
+    <text x="745" y="78" text-anchor="end" class="sans eyebrow" font-size="18" fill="#E7BD87">GUIDE</text>
+    <g transform="translate(278 130)" color="#FFF5E7">
+      <circle class="icon" cx="120" cy="120" r="115"/>
+      <path class="icon" d="M75 89c5-39 40-57 74-45 32 12 45 54 21 79-19 19-50 22-50 62M120 220h1"/>
+    </g>
+    <text x="399" y="500" text-anchor="middle" class="sans bottom-title" fill="#FFF8EE">使用說明</text>
+    <text x="399" y="561" text-anchor="middle" class="sans bottom-sub" fill="#E4C8A7">快速查看完整操作流程</text>
+    <path d="M265 654h267m-24-18 18 18-18 18" fill="none" stroke="#FFF3E3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
